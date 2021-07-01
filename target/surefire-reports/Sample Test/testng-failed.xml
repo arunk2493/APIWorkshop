@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Get Pet by status(failed)" verbose="0">
+    <classes>
+      <class name="SampleTest">
+        <methods>
+          <include name="validateGetResponseBody"/>
+        </methods>
+      </class> <!-- SampleTest -->
+    </classes>
+  </test> <!-- Get Pet by status(failed) -->
+</suite> <!-- Failed suite [Sample Test] -->
