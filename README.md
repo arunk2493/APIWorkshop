@@ -12,3 +12,13 @@ POST - place an order - https://petstore.swagger.io/v2/store/order
 inputs for the post call body ranges from 1
 
 Please use the created classes for the test cases
+
+request body for post:
+{
+"id": 0,
+"petId": 0,
+"quantity": 0,
+"shipDate": "2021-09-17T05:43:00.987Z",
+"status": "placed",
+"complete": true
+}
