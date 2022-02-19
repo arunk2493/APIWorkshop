@@ -2,12 +2,12 @@ API WorkShop:
 
 Please run mvn test command to verify the code works fine
 
-1. Write Basic Automation tests for the given endpoints
+Write Basic Automation tests for the given endpoints
 
-1. GET - retrive a pet detail - https://petstore.swagger.io/v2/pet/1 
-  1. Assert the status of the response
-  2. Print the status and error message if invalid input is passed - Negative numbers, float numbers and invalid characters and invalid data
-  3. Access the "tags" from response body and print and validate the values
+* GET - retrive a pet detail - https://petstore.swagger.io/v2/pet/1 
+  -> Assert the status of the response
+  -> Print the status and error message if invalid input is passed - Negative numbers, float numbers and invalid characters and invalid data
+  -> Access the "tags" from response body and print and validate the values
 
 Sample Response:
 {
@@ -30,12 +30,12 @@ Sample Response:
 }
 
 
-2. POST - place an order - https://petstore.swagger.io/v2/store/order
+* POST - place an order - https://petstore.swagger.io/v2/store/order
   
-  1. Test script for creating an order when the inventory is available. FOr this hit "https://petstore.swagger.io/v2/store/inventory" call and verify and create an       order
+  -> Test script for creating an order when the inventory is available. FOr this hit "https://petstore.swagger.io/v2/store/inventory" call and verify and create an       order
 
-3. GET - retrive a pet detail - https://petstore.swagger.io/v2/pet/1 
-    1. Hit this api "n" number of times and extract the response time for all the hit and display the least response time taken value and hit count
+* GET - retrive a pet detail - https://petstore.swagger.io/v2/pet/1 
+    -> Hit this api "n" number of times and extract the response time for all the hit and display the least response time taken value and hit count
 
 
 "inputs for the post call body ranges from 1"
